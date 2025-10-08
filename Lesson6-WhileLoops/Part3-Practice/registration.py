@@ -55,7 +55,7 @@ while True:
     else:
         print("Please enter a valid number!")
         continue
-    # Password validation passed!
+    # Age validation passed!
     print(f"Age {age} recorded! \n")
     break
 
