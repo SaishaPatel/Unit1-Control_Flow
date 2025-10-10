@@ -8,9 +8,13 @@
 # Row 4: 0 spaces, 9 stars
 
 rows = 5
-for i in range(1, rows+1):
-    for j in range (4, -1):
+# Step 1: Create an outer loop for the rows
+for i in range(rows):
+    # Step 2: Print the spaces rows-i-1
+    for j in range(rows-i-1):
         print(" ", end="")
-    for j in range(2*i-1):
+    # Step 3: Print the stars 2*i-1
+    for k in range(2*i-1):
         print("*", end="")
+    # Step 4: Print a new line
     print()
